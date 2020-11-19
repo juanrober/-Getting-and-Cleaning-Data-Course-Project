@@ -23,7 +23,7 @@
 + Fromm the activity_labels.txt files get the proper labels.
 + Add the labels to the activities data frame.
 
-# 4. Appropriately labels the data set with descriptive variable names.
+## 4. Appropriately labels the data set with descriptive variable names.
 
 + Label the the data set with this criteria:
 
@@ -36,7 +36,7 @@ Jerk = sudden movement acceleration
 Mag = magnitude of movement
 mean and SD are calculated for each subject for each activity for each mean and SD measurements. The units given are g’s for the accelerometer and rad/sec for the gyro and g/sec and rad/sec/sec for the corresponding jerks.
 
-# 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+## 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 + Write the final data base in tidy format as a txt file.
 
