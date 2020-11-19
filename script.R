@@ -40,3 +40,5 @@ nombres_nuevos <- gsub("-mean-", "_Mean_", nombres_nuevos)
 nombres_nuevos <- gsub("-std-", "_StandardDeviation_", nombres_nuevos)
 nombres_nuevos <- gsub("-", "_", nombres_nuevos)
 names(base_sub) <- nombres_nuevos
+
+write.table(dataTable, "TidyData.txt", row.name=FALSE)
